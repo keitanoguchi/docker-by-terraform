@@ -17,7 +17,7 @@ Terraform で Docker を構成管理する
 
 ## 使い方
 
-### Terraform 実行
+### 構築
 
 更新差分を表示
 ```sh
@@ -69,4 +69,11 @@ owners.
 Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 
 mysql> 
+```
+
+### 削除
+
+Terraform で管理しているリソースを削除
+```sh
+$ terraform destroy
 ```
